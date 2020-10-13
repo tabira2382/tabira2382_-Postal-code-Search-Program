@@ -1,3 +1,7 @@
+import my_zipcloud
+import my_formatter
+
+
 def main():
     # ユーザーから入力（郵便番号）を受け取る
     zipcode = input('郵便番号　> ')
@@ -7,7 +11,7 @@ def main():
     address = my_zipcloud.fetch_address(zipcode)
 
     # 取得した地名を最終出力の形式に整形する
-    output = my_formatter.simple_formatter(address)
+    output = my_formatter.simple_formatter(zipcode, address)
 
     #　最終的な出力内容を出力する
     print(output)
