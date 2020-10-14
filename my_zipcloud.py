@@ -15,12 +15,4 @@ def fetch_address(zipcode: str) -> str:
     return f'{address1}{address2}{address3}'
 
 
-def main():
-    zipcode = '8541123'
-    address = fetch_address (zipcode)
 
-    print (address)
-
-
-if __name__ == '__main__':
-    main ()

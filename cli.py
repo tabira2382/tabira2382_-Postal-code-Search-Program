@@ -4,7 +4,7 @@ import my_formatter
 
 def main():
     # ユーザーから入力（郵便番号）を受け取る
-    zipcode = input ('郵便番号　> ')
+    zipcode = input ('郵便番号を入力してください　> ')
 
     # 受け取った郵便番号を使ってWebAPIを呼び出して、地名を取得する
     # ex: 8480046 -> 佐賀県伊万里市伊万里町乙
