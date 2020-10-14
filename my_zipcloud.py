@@ -2,7 +2,7 @@ import requests
 
 
 def fetch_address(zipcode: str) -> str:
-    # TODO: WebAPIを呼び出す予定
+
 
     url = f'https://zipcloud.ibsnet.co.jp/api/search?zipcode={zipcode}'
     response = requests.get (url)
